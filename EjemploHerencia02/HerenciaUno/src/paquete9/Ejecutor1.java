@@ -10,14 +10,14 @@ import java.util.ArrayList;
 public class Ejecutor1 {
 
     public static void main(String[] args) {
-
+        //Me tocó cambiar el nombre del commit 
         ArrayList<EstudianteDistancia> listaDistancia = new ArrayList<>();
         
         EstudianteDistancia e1 = new EstudianteDistancia("Mario", "Mills", "212233",
                 23, 1, 100.2);
         EstudianteDistancia e2 = new EstudianteDistancia("Joseph", "White", "212234",
                 24, 5, 100.2); 
-        EstudianteDistancia e3 = new EstudianteDistancia("Catherine", "Reyes", "212235",
+        EstudianteDistancia e3 = new EstudianteDistancia("Jelipe", "El pirata", "212235",
                 25, 8, 100.2);
         
         listaDistancia.add(e1);
