@@ -17,7 +17,7 @@ public class EstudianteDistancia extends Estudiante{
     
     @Override
     public void establecerNombresEstudiante(String nom){
-        nombresEstudiante = nom.toUpperCase(); // Juan.toUpperCase() >> JUAN 
+        nombresEstudiante = nom.toLowerCase(); // Juan.toUpperCase() >> JUAN 
     }
     
     // 2.  Método establecerNumeroAsginaturas(numero: Real)

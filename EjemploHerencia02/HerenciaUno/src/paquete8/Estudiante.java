@@ -10,7 +10,6 @@ public class Estudiante {
     
     
     public Estudiante(String a, String iden, int ed){
-               
         apellidosEstudiante = a;
         identificacionEstudiante = iden;
         edadEstudiante = ed;
